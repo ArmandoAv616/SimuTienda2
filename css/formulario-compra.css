@@ -1,0 +1,271 @@
+.targets .content {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.targets .title,
+.targets .title-mercadopago {
+  font-size: 30px;
+  margin-bottom: 25px;
+  margin-left: -215px;
+}
+
+.targets .title-paypal {
+  font-size: 30px;
+  margin-bottom: 25px;
+  margin-left: -320px;
+}
+
+.targets .form {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.targets .form form {
+  margin-left: 31px;
+}
+.targets .form form .input-50 {
+  width: 45.2%;
+  padding: 9px;
+  margin: 9px;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  font-family: "Raleway";
+}
+
+.targets .form form .input-50-pay-mp {
+  width: 41.9%;
+  padding: 9px;
+  margin: 9px 10px;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  font-family: "Raleway";
+}
+
+.targets .form form .input-100 {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  margin-left: 10px;
+  font-family: "Raleway";
+}
+
+.select {
+  width: 93.3%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  margin-left: 10px;
+  font-family: "Raleway";
+}
+
+.select,
+.input-100,
+.input-50 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title-input {
+  padding: 12px;
+}
+
+.targets .form form .submit2,
+.targets .form form .reset2 {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-size: 15px;
+  padding: 15px;
+  margin: 18px 93px;
+  width: 150px;
+  color: white;
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 6px;
+  margin-top: 20px;
+  transition: all 300ms;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.targets .form form .submit2 {
+  padding: 15px 25px;
+}
+
+.targets .form form .submit2:hover,
+.targets .form form .reset2:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+  box-shadow: 0px 0px 6px #000000;
+}
+
+.image-content2 {
+  margin-top: -120px;
+  width: 0%;
+  margin-left: 200px;
+}
+
+.image-content2 .mercado-pago {
+  width: 200px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.image-content2 .icon-paypal {
+  width: 130px;
+  margin-top: 60px;
+  margin-left: 90px;
+  margin-bottom: 25px;
+}
+
+.image-content2 .icon-target {
+  width: 155px;
+  margin-top: 9px;
+  margin-left: 80px;
+  margin-bottom: -15px;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1300px) {
+  .targets .content {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .targets .title,
+  .targets .title-mercadopago {
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-left: -215px;
+  }
+
+  .targets .title-paypal {
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-left: -320px;
+  }
+
+  .targets .form {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .targets .form form {
+    margin-left: 31px;
+  }
+  .targets .form form .input-50 {
+    width: 45.2%;
+    padding: 9px;
+    margin: 9px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    font-family: "Raleway";
+  }
+
+  .targets .form form .input-50-pay-mp {
+    width: 40.7%;
+    padding: 9px;
+    margin: 9px 10px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    font-family: "Raleway";
+  }
+
+  .targets .form form .input-100 {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    margin-left: 10px;
+    font-family: "Raleway";
+  }
+
+  .select {
+    width: 94.9%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    margin-left: 10px;
+    font-family: "Raleway";
+  }
+
+  .select,
+  .input-100,
+  .input-50 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .title-input {
+    padding: 12px;
+  }
+
+  .targets .form form .submit2,
+  .targets .form form .reset2 {
+    text-align: center;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-size: 15px;
+    padding: 15px;
+    margin: 18px 46px;
+    width: 150px;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 6px;
+    margin-top: 20px;
+    transition: all 300ms;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .targets .form form .submit2 {
+    padding: 15px 25px;
+  }
+
+  .targets .form form .submit2:hover,
+  .targets .form form .reset2:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+    box-shadow: 0px 0px 6px #000000;
+  }
+
+  .image-content2 {
+    margin-top: -120px;
+    width: 0%;
+    margin-left: 200px;
+  }
+
+  .image-content2 .mercado-pago {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .image-content2 .icon-paypal {
+    width: 130px;
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-bottom: 25px;
+  }
+
+  .image-content2 .icon-target {
+    width: 155px;
+    margin-top: 9px;
+    margin-left: 80px;
+    margin-bottom: -15px;
+  }
+}

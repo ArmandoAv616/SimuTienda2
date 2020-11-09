@@ -1,0 +1,179 @@
+.content-wrapper {
+  flex-wrap: wrap;
+}
+
+.title-method {
+  margin-top: 80px;
+  width: 100%;
+  margin-left: 60px;
+}
+
+.method-title {
+  font-size: 22px;
+}
+
+.content-method {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 360px;
+}
+.content-method a {
+  transition: 0.4s;
+}
+
+.content-method-mt {
+  margin-top: 25px;
+}
+
+.method-button {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  transition: all 300ms;
+  letter-spacing: 3px;
+  background-color: black;
+  padding: 12px 25px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+.method-button-paypal {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  transition: all 300ms;
+  letter-spacing: 3px;
+  background-color: black;
+  padding: 12px 76px;
+}
+
+.method-button-mercadopago {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  transition: all 300ms;
+  letter-spacing: 3px;
+  background-color: black;
+  padding: 12px 38px;
+}
+
+.method-button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0px 0px 6px #000000;
+}
+
+.target {
+  width: 155px;
+  height: 125px;
+  margin-left: 130px;
+  margin-top: 15px;
+}
+
+.paypal {
+  width: 175px;
+  height: 75px;
+  margin-top: 25px;
+  margin-left: 130px;
+}
+
+.mercado-pago {
+  width: 235px;
+  height: 130px;
+  margin-top: 15px;
+  margin-left: 110px;
+}
+
+/*------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1300px) {
+  .content-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .title-method {
+    margin-top: 80px;
+    width: 100%;
+    margin-left: 60px;
+  }
+
+  .method-title {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .content-method {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 360px;
+  }
+  .content-method a {
+    transition: 0.4s;
+  }
+
+  .content-method-mt {
+    margin-top: 25px;
+  }
+
+  .method-button {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: all 300ms;
+    margin-left: -170px;
+    letter-spacing: 3px;
+    background-color: black;
+    padding: 12px 25px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+  }
+
+  .method-button-paypal {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: all 300ms;
+    letter-spacing: 3px;
+    background-color: black;
+    padding: 12px 76px;
+  }
+
+  .method-button-mercadopago {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: all 300ms;
+    letter-spacing: 3px;
+    background-color: black;
+    padding: 12px 38px;
+  }
+
+  .method-button:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 6px #000000;
+  }
+
+  .target {
+    width: 155px;
+    height: 125px;
+    margin-left: -30px;
+    margin-top: 15px;
+  }
+
+  .paypal {
+    width: 175px;
+    height: 75px;
+    margin-top: 25px;
+    margin-left: -30px;
+  }
+
+  .mercado-pago {
+    width: 235px;
+    height: 130px;
+    margin-top: 15px;
+    margin-left: -65px;
+  }
+}

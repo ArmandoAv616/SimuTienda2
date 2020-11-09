@@ -1,0 +1,129 @@
+.image-product {
+  margin-top: 85px;
+  margin-left: 70px;
+}
+
+.image-product img {
+  width: 365px;
+  margin-top: 40px;
+  margin-left: -30px;
+}
+
+.description-product {
+  margin-top: 100px;
+  width: 45%;
+  margin-left: 70px;
+}
+
+.title-game {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.category-game {
+  font-size: 20px;
+}
+
+.description-game {
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 120%;
+  line-height: 23px;
+}
+
+.prize-game {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.buy-button {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  transition: all 300ms;
+  letter-spacing: 3px;
+  background-color: black;
+  padding: 12px 120px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+}
+
+.buy-button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  transition: 0.4s;
+  box-shadow: 0px 0px 6px #000000;
+}
+
+.halo,
+.mine {
+  margin-top: 110px;
+}
+
+/*-----------------------------------------------------------------*/
+
+@media only screen and (max-width: 1300px) {
+  .image-product {
+    margin-top: 85px;
+    margin-left: 0px;
+  }
+
+  .image-product img {
+    width: 365px;
+    margin-top: 40px;
+    margin-left: -30px;
+  }
+
+  .description-product {
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  .title-game {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .category-game {
+    font-size: 20px;
+  }
+
+  .description-game {
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 120%;
+    line-height: 23px;
+  }
+
+  .prize-game {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .buy-button {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: all 300ms;
+    letter-spacing: 3px;
+    background-color: black;
+    padding: 12px 80px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+  }
+
+  .buy-button:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.4s;
+    box-shadow: 0px 0px 6px #000000;
+  }
+
+  .halo,
+  .mine {
+    margin-top: 110px;
+  }
+}

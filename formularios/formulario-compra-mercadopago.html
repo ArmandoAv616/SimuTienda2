@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=no"
+    />
+    <title>E-Commerce - Añadir Cuenta de Mercado Pago</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/formulario-compra.css">
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../css/jam.min.css" />
+  </head>
+  <body>
+    <header class="main-header" id="#inicio">
+      <div class="content-wrapper">
+        <div class="logo">
+          <a href="../index.html"><img src="../img/logo.svg" alt="Logo" /></a>
+        </div>
+        <nav class="main-menu">
+          <ul>
+            <li><a href="../index.html#about">Sobre Nosotros</a></li>
+            <li><a href="../index.html#products">Productos</a></li>
+            <li><a href="../index.html#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      
+      <section class="targets">
+        <div class="content-wrapper content">
+          <h3 id="contact" class="title-mercadopago">Añadir Cuenta de Mercado Pago</h3>
+          <div class="image-content2">
+              <img src="../img/mercado-pago-logo.jpg" alt="MercadoPago" class="icon-method mercado-pago">
+          </div>
+          <div class="form">
+            <form action="#">
+              <label for="titular-target" class="title-input">Nombre de usuario:</label> <br>
+              <input
+                type="text"
+                id="titular-target"
+                class="input-100 surname"
+                required
+              />
+              <label for="titular-target" class="title-input">Contraseña:</label> <br>
+              <input
+                type="password"
+                id="titular-target"
+                class="input-100 surname"
+                required
+              />
+              <label for="titular-target" class="title-input">Nombre y Apellido:</label> <br>
+              <input
+                type="text"
+                id="titular-target"
+                class="input-50-pay-mp surname"
+                required
+              />
+              <input
+                type="text"
+                id="titular-target"
+                class="input-50-pay-mp surname"
+                required
+              />
+              <label for="name-target" class="title-input">Seleccione su tarjeta:</label>
+              <select class="select">
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="BBVA Francés">BBVA Francés</option>
+                <option value="American Express">American Express</option>
+              </select>
+              <label for="num-target" class="title-input">Número de tarjeta de crédito/débito:</label> <br>
+              <input
+                type="number"
+                id="num-target"
+                placeholder="1111-1111-1111-1111"
+                class="input-100 name"
+                required
+              />
+              <label for="vence-target" class="title-input">Fecha de vencimiento:</label> <br>
+              <select class="input-50" aria-placeholder="Mes">
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+              </select>
+              <select class="input-50">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2023">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+              </select>
+              <label for="cvv-target" class="title-input">CVV:</label> <br>
+              <input
+                type="number"
+                id="cvv-target"
+                placeholder="111"
+                class="input-100 name"
+                required
+              />
+              <label for="address-target" class="title-input">Dirección:</label> <br>
+              <input
+                type="text"
+                id="address-target"
+                class="input-100 name"
+                required
+              />
+              <input type="reset" class="reset2" value="Cancelar" />
+              <a href="../resumen/resumen-compra-mercadopago.html" class="submit2">Continuar</a>
+            </form>
+          </div>
+        </div>  
+      </section>
+  </body>
+</html>
